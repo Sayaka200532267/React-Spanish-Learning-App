@@ -10,7 +10,7 @@ function Home() {
   return (
 <div
   style={{
-    position: 'relative', // Add this line
+    position: 'relative', 
     height: '100vh',
     width: '100%',
     display: 'flex',
@@ -29,13 +29,13 @@ function Home() {
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
-      position: 'absolute', // Add this line
-      top: 0, // Add this line
-      left: 0, // Add this line
+      position: 'absolute', 
+      top: 0,
+      left: 0, 
       height: '100%',
       width: '100%',
-      opacity: 0.9, // Add this line
-      zIndex: -1, // Add this line
+      opacity: 0.9, 
+      zIndex: -1, 
     }}
   />
   <h1>Spanish Learning App</h1>
